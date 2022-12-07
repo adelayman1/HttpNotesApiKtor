@@ -7,6 +7,7 @@
 Notes API That's Built With Ktor to keep and organize user's notes.
 This repository contains a **Notes Api** This is an educational API.Use and run this API to learn more about API design and best practices
 you must follow.That's built with Ktor to keep  and organize users's notes , That's implements Pagination,Coroutines,JWT,clean architecture,Koin,Exposed,jackson,etc... using kotlin language with ktor framework this is server side you can find usage of this API in real project here -> [AndroidNoteApp](https://github.com/adelayman1/)
+You can find postman document here -> [UserEndpoint](https://documenter.getpostman.com/view/14561772/2s8YzP3Qe4)  [NoteEndpoint](https://documenter.getpostman.com/view/14561772/2s8YzP3QZn) 
 
 ![](https://user-images.githubusercontent.com/85571327/206309085-d497f390-4670-4b65-8c76-d4f078ae16f8.png)
 
