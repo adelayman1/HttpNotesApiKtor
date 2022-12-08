@@ -7,7 +7,7 @@ import org.jetbrains.exposed.sql.insert
 import org.jetbrains.exposed.sql.select
 
 class UserDAOImpl : UserDAO {
-    override suspend fun insetUser(userAuthToken:String,userEmail: String,userPassword:String,userName:String): ResultRow? {
+    override suspend fun insetUser(userEmail: String,userPassword:String,userName:String): ResultRow? {
         return dbQuery {
             val insertStatement = Users.insert { users ->
                 users[email] = userEmail
