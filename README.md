@@ -124,14 +124,19 @@ In this part you will find all operators you can make such as
 **Response**
 ```json
 {
-  "status": true,
-  "data": {
-    "userID": "1",
-    "email": "TOKEN",
-    "userName": "Adel Ayman",
-    "email": "adelayman0000@gmail.com"
-  },
-  "message": "Login done successfully"
+    "status": true,
+    "data": {
+        "noteId": "8",
+        "email": "adelayman0000@gmail.com",
+        "title": "hello3!!!",
+        "subtitle": "anything",
+        "description": "Welcome to us again again!",
+        "date": "Thursday, 08 December 2022 18:05",
+        "image": "https://avatars.githubusercontent.com/u/85571327?s=400&u=b39f4f0b0d503f5826f4d74fa6f951aee05703b6&v=4",
+        "webLink": "https://github.com/adelayman1",
+        "color": 2656
+    },
+    "message": "Note has added successfully"
 }
 ```
 ---
@@ -270,21 +275,19 @@ In this part you will find all operators you can make such as
 **Response**
 ```json
 {
-  "status": true,
-  "data": [
-    {
-      "noteId": "3",
-      "email": "EMAIL",
-      "title": "testing note",
-      "subtitle": "1sss",
-      "description": "postman Descreptionaaaaaaaaankjdkjkjk adel ayman any thing new word",
-      "date": "Tuesday, 06 December 2022 14:37",
-      "image": "https://avatars.githubusercontent.com/u/85571327?s=400&u=b39f4f0b0d503f5826f4d74fa6f951aee05703b6&v=4",
-      "webLink": "https://github.com/adelayman1/QuranAppCoroutine",
-      "color": 5
-    }
-  ],
-  "message": "Notes have got successfully"
+    "status": true,
+    "data": {
+        "noteId": "4",
+        "email": "adelayman0000@gmail.com",
+        "title": "aaa",
+        "subtitle": "anything",
+        "description": "Welcome to us again!",
+        "date": "Wednesday, 07 December 2022 20:38",
+        "image": "https://www.w3schools.com/css/paris.jpg",
+        "webLink": null,
+        "color": 2656
+    },
+    "message": "Note details has updated successfully"
 }
 ```
 
